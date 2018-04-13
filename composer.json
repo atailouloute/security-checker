@@ -1,0 +1,6 @@
+{
+    "require": {
+        "symfony/console": "^4.0",
+        "sensiolabs/security-checker": "^4.1"
+    }
+}
