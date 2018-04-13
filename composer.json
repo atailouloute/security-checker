@@ -1,6 +1,7 @@
 {
     "require": {
         "sensiolabs/security-checker": "^4.1",
-        "symfony/console": "3.4"
+        "symfony/console": "3.4",
+        "symfony/debug": "3.4"
     }
 }
