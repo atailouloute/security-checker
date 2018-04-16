@@ -30,6 +30,8 @@ class SecurityCheckerCommand extends Command
         } else {
             $io->error('Vulnerabilities detected!');
             $io->error(json_encode($vulnerabilities, JSON_PRETTY_PRINT));
+            
+            exit(1);
         }
     }
 }
